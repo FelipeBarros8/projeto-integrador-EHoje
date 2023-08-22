@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li + li {
+    margin-left: 20px;
+}
+
+.menu a {
+    background: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: .3s;
+}
+
+.btn_entra {
+    background: rgb(160, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.menu a:hover {
+   background:  rgb(160, 0, 0);
+}
+
+
+.btn_cadastro {
+ 
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(160, 0, 0);
+    margin-left: 10px;
+}
+
+.btn_cadastro:hover {
+    background: rgb(160, 0, 0);
+    color: white;
+}
+
+
+
+.oque {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.sobre h1 {
+    margin-bottom: 30px;
+}
+
+.sobre p {
+    margin-bottom: 30px;
+}
+
+.sobre .saiba {
+    align-self: flex-end;
+}
